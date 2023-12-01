@@ -1,0 +1,340 @@
+/*--------------------------------------------------------------
+header
+--------------------------------------------------------------*/
+.logo img {
+  width: 50%;
+}
+
+.header-sub {
+  padding: 10px 10px;
+}
+
+header ul.first-ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+header .collapse-btn {
+  display: none;
+}
+
+header .link-item {
+  padding: 10px 1px;
+  list-style: none;
+  font-size: 18px;
+  margin: 0px 8px;
+}
+
+header .link-item a {
+  color: #030708;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+}
+
+header .link-item a::after {
+  content: "";
+  background-color: #0d928d;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.5s;
+  text-decoration: underline;
+}
+
+header .link-item a:hover::after {
+  width: 100%;
+  background-color: #0d928d;
+}
+
+.login-details p {
+  font-size: 18px;
+  padding: 10px 1px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-details .button {
+  display: inline-block;
+  background-color: #0d928d;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 113px;
+  height: 45px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bar-icon {
+  padding: 15px 0px;
+  margin-left: 20px;
+}
+/*--------------------------------------------------------------
+  banner
+--------------------------------------------------------------*/
+
+.banner-heading p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.room-button {
+  text-align: center;
+}
+
+.dream-button {
+  background-color: #0d928d;
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+/*--------------------------------------------------------------
+Rooms-card
+--------------------------------------------------------------*/
+.room-card {
+  text-align: center;
+  padding: 100px 0px 100px 0px;
+}
+
+.room-heading p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+.room-image img {
+  width: 400px;
+  object-fit: cover;
+}
+/*--------------------------------------------------------------
+Benefits-section
+--------------------------------------------------------------*/
+.benefits {
+  padding: 0px 20px;
+}
+.benefits-heading p {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  width: 60%;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.benefits-heading p:before {
+  color: white;
+  content: "";
+  flex: 1;
+  border-bottom: groove 3px;
+  margin: auto 1.2rem;
+  box-shadow: 0 -2px;
+}
+.card-heading {
+  display: flex;
+}
+.different-cards {
+  padding: 20px 20px;
+}
+.card-title h1 {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.card-title p {
+  font-size: 16px;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.card-icon img {
+  width: 30px;
+  height: 30px;
+}
+/*--------------------------------------------------------------
+transform-image
+--------------------------------------------------------------*/
+.transform-dream {
+  padding: 30px 20px;
+}
+.transform-dream h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+}
+.transform-image img {
+  height: 400px;
+  width: 400px;
+}
+.more-button {
+  display: inline-block;
+  border: none;
+  color: #0d928d;
+  border: 1px solid #0d928d;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 113px;
+  height: 45px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px 0px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+/*--------------------------------------------------------------
+Project-section
+--------------------------------------------------------------*/
+.project {
+  padding: 30px 20px;
+}
+.project-title h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.project-title h3 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.project-title p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.project-image img {
+  height: 300px;
+  width: 600px;
+}
+.project-button {
+  display: inline-block;
+  background-color: #0d928d;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  height: 45px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+/*--------------------------------------------------------------
+testimonial-section
+--------------------------------------------------------------*/
+.testimonial {
+  padding: 30px 20px;
+}
+.testimonial-heading {
+  padding-bottom: 50px;
+}
+.testimonial-heading h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.testimonial-image img {
+  height: 450px;
+}
+.testimonial-box {
+  background-color: #0d928d;
+  height: 303px;
+}
+.testimonial-box p {
+  text-align: center;
+  padding: 100px 50px;
+  color: white;
+  font-size: 20px;
+}
+/*--------------------------------------------------------------
+working-section
+--------------------------------------------------------------*/
+.working {
+  padding: 30px 20px;
+}
+.workers {
+  display: flex;
+}
+.work-image img {
+  height: 450px;
+}
+.work-image2 img {
+  height: 220px;
+}
+.working-heading h1 {
+  font-size: 50px;
+}
+.working-heading p {
+  font-size: 18px;
+}
+.worker-button {
+  display: inline-block;
+  background-color: #0d928d;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  height: 45px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+/*--------------------------------------------------------------
+traditionalist-section
+--------------------------------------------------------------*/
+.traditionalist {
+  padding: 30px 20px;
+}
+.traditional-card {
+  display: flex;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 15px;
+  margin: 22px 0 0 0;
+  border-radius: 8px;
+  height: calc(100vh - 93px);
+  overflow: auto;
+  position: relative;
+}
+
+.main-wrapper::-webkit-scrollbar
+{
+  width: 8px;
+  background: transparent;
+}
+.main-wrapper::-webkit-scrollbar-track
+{
+  padding: 4px;
+}
+.main-wrapper::-webkit-scrollbar-thumb
+{
+  background: #0d928d;
+  border-radius: 30px;
+}

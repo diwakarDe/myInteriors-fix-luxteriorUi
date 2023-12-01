@@ -1,0 +1,130 @@
+.roomcount {
+    display: flex;
+    padding: 10px 24px;
+    background: #0d928d1f;
+    border-left: 4px solid #0d928d;
+}
+
+span.step {
+    background: #0D928D;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 3.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 2.6em;
+}
+
+.roomplate p {
+    padding: 10px 0px;
+    margin: 0;
+    color: #0D928D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Dropdown */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.mordernbutton-dropdown {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.dd-button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 1em 9em;
+    background-color: #DEFDFC;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14.8px;
+}
+
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+}
+
+.dd-input+.dd-menu {
+    display: none;
+}
+
+.dd-input:checked+.dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    padding: 1em 6.2em;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.dreamroom-image {
+    text-align: center;
+    padding: 10px 0px 20px;
+}
+
+.dreamroom-image img {
+    width: 100%;
+}
+
+.bottomline {
+    border: 1px solid #0D928D;
+    margin: 2 0px 0px;
+}
+
+button.Back-button-for-room.btn.btn-primary {
+    width: 127px;
+    padding-left: -1px;
+    margin-left: 80%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .dd-button {
+        padding: 1em 7em;
+    }
+
+    .dd-menu li {
+        padding: 1em 4.2em;
+    }
+
+    .dreamroom-image {
+        padding: 0px 0px;
+    }
+}

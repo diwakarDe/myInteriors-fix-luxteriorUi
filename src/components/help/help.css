@@ -1,0 +1,65 @@
+.helyou {
+    border:none !important;
+    padding: 20px 0px;
+}
+.help-heading{
+    text-align: center;
+}
+.helpcard{
+    text-align: center;
+}
+.help-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.helpcard-1{
+    max-width: 10px;
+    min-width: 200px;
+}
+.card1-image img{
+    width: 100%;
+}
+.card-text{
+    text-align: center;
+}
+.card2-image img{
+    width: 100%;
+}
+.card3-image img{
+    width: 100%;
+}
+input.inputbox {
+    border: 1px solid #0d928d;
+    padding: 11px;
+    border-radius: 25px;
+    color: #000;
+    background: beige;
+}
+button.buttonhelp {
+    background: #0d928d;
+    color: #fff;
+    padding: 10px 21px;
+    border: 0;
+    border-radius: 25px;
+    margin-top: 13px;
+    font-size: 18px;
+    font-family: 'Exo 2';
+    display: block;
+    margin-top: 20px;
+}
+.flexbox {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.flexbox h2 {
+    font-family: 'Exo 2';
+    margin-bottom: 20px;
+}
+.card-text p {
+    font-family: 'Exo 2';
+}

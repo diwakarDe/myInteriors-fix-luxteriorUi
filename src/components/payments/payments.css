@@ -1,0 +1,138 @@
+.helyou {
+    border: 1px solid lightgray;
+}
+
+.help-heading {
+    text-align: center;
+}
+
+.help-heading h1 {
+    font-size: 40px;
+    color: #0D928D;
+    font-family: 'Exo 2';
+}
+
+.help-card {
+    display: flex;
+    justify-content: center;
+}
+
+.helpcard-1 {
+    text-align: center;
+}
+
+.card1-image img {
+    width: 50%;
+}
+
+.card1-text p {
+    padding: 20px 0px;
+}
+
+.helpcard-2 {
+    text-align: center;
+}
+
+.card2-image img {
+    width: 50%;
+}
+
+.card2-text p {
+    padding: 20px 0px;
+}
+
+.helpcard-3 {
+    text-align: center;
+}
+
+.card3-image img {
+    width: 50%;
+}
+
+.card3-text p {
+    padding: 20px 0px;
+}
+
+thead.thead-dark {
+    background: #0d928d;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.modal-header {
+    background: #0d928d;
+    color: #fff;
+    font-family: 'Exo 2';
+    font-size: 22px;
+}
+
+.amouttext {
+    font-size: 19px;
+    font-family: 'Exo 2';
+    display: flex;
+    flex-direction: column;
+}
+
+.amouttext span {
+    color: #198754
+}
+
+.modal-footer button.btn.btn-primary {
+    border-radius: 30px;
+}
+
+.Liteprice:hover {
+    transform: scale(1.06);
+    box-shadow: 5px 5px 15px rgba(221, 221, 221, 0.6);
+}
+
+.Liteprice {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn.btn-primary.upgrade-button-payment {
+
+    color: #0D928D;
+    background: transparent;
+
+}
+
+.generation-text {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #0D928D;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.Lite {
+    padding: 15px;
+    background-color: #0D928D;
+    color: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Lite::after {
+    display: none;
+}
+
+.active-plan {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #fff;
+    color: #0D928D;
+    border-radius: 50px;
+}
+
+.litemonth .dollar {
+    color: #0D928D;
+    font-weight: 700;
+}

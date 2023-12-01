@@ -1,0 +1,82 @@
+.helyou {
+    border: 1px solid lightgray;
+}
+
+.help-heading {
+    text-align: center;
+}
+
+.help-heading h1 {
+    font-size: 40px;
+    color: #0D928D;
+}
+
+.help-card {
+    display: flex;
+    justify-content: center;
+}
+
+.helpcard-1 {
+    text-align: center;
+}
+
+.card1-image img {
+    width: 50%;
+}
+
+.card1-text p {
+    padding: 20px 0px;
+}
+
+.helpcard-2 {
+    text-align: center;
+}
+
+.card2-image img {
+    width: 50%;
+}
+
+.card2-text p {
+    padding: 20px 0px;
+}
+
+.helpcard-3 {
+    text-align: center;
+}
+
+.card3-image img {
+    width: 50%;
+}
+
+.card3-text p {
+    padding: 20px 0px;
+}
+.request-table-responsive
+{
+    border-radius: 20px;
+}
+.request-table .request-head
+{
+    padding: 15px 20px;
+    white-space: nowrap;
+    box-shadow: none;
+}
+.request-table .request-data
+{
+    padding: 15px 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.request-status
+{
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 50px;
+}
+.request-status.active
+{
+    color: #fff;
+    background: #0D928D;
+}

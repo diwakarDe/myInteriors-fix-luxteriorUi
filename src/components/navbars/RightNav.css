@@ -1,0 +1,22 @@
+.dashboard-nav {
+  margin-left: 0;
+  background-color: #0d928d;
+  width: 100%;
+  /* margin: 40px 0px; */
+}
+.dashboard-navbar li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: Exo 2;
+}
+.dashboard-navbar span {
+  margin-left: 10px;
+}
+.icon {
+  height: 0em;
+  width: 0em;
+  padding: 0em 0em;
+  margin: 0em 0em;
+  background: none;
+}
